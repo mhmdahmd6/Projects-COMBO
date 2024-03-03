@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMBO</title>
+    <menu type="" src="img/about.jpg"></menu>
+    <!--  //  links css -- -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://unpkg.com/scrollreveal"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+          
+</head>
+<body class="">
+    <!--  //  STRIT HEADER --  -->
+    <header>
+    <a href="#" class="logo">COMBO</a>
+    <div class="nav-container">
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"  ><a id="hideSidebar" href="#"><i id="icn" class="bx   bx-x"></i></a></li>
+            <li class="navBT" onclick="hideSidebar()"><a href="#Profile" >Home</a></li>
+          <li class="navBT" onclick="hideSidebar()"><a href="#about" >About</a></li>  
+          <li class="navBT" onclick="hideSidebar()"><a href="#menus" >Menu</a></li>
+            <li class="navBT" onclick="hideSidebar()"><a href="Shop/index.html" >Shop</a></li>
+
+            <div class="nav-button-sidebar">
+                <i  class="fa-solid fa-magnifying-glass"></i>
+                <i  class="fa-solid fa-user"></i>
+                <i  class="fa-solid fa-cart-shopping icon-cart"><span style="padding-left: 1px;"></span></i>
+            </div>
+            <p class="copyright">© 2024 <a href="https://www.linkedin.com/in/mhmdahmd6">M.Jaballah </a> . All right reserved</p>
+        </ul>
+        <ul class="navbar">
+            <li><a href="#Profile" class="after nav-btn">Home</a></li>
+          <li><a href="#about" class="nav-btn">About</a></li>  
+          <li><a href="#menus" class="nav-btn">Menu</a></li>
+            <li><a href="Shop/index.html" class="nav-btn">Shop</a></li>
+        </ul>
+        
+    </div>
+    <div class="nav-button">
+        <a href="#" id="menu" onclick="showSidebar()"><i class="bx bx-menu" id="icn"></i></a>
+        <i id="icon" class="fa-solid fa-magnifying-glass"></i>
+        <i id="icon" class="fa-solid fa-user"></i>
+        <i id="icon" class="fa-solid fa-cart-shopping icon-cart"><span style="padding-left: 1px;"></span></i>
+    </div>
+    </header>
+      <!-- // END HEADER --  -->
+      <!--  //  STRIT SECTION --  -->
+
+      <!--  //  STRIT PRPFILE --  -->
+      <section class="Profile" id="Profile">
+          <div class="prof-text">
+              <h1 class="prof-text-h1">THE ULTIMATE</h1>
+              <h1 class="prof-text-h1">  BURGER HAUEM</br></h1>
+          
+              <p class="prof-text-p1"> Welcome to our Burger paradise,where every bite is a journey into flavor perfection!
+                  lndulge in a symphony of premium ingredients,expertly crafted patties , and mouthwateeing sauces .
+              </p>
+              <div class="prof-button">
+                <button class="btn btn-color-1" onclick="location.href='#menus'">Order Now</button>
+                <button class="btn-color-2" onclick="location.href='#menus'">View Manu</button>
+              </div>
+
+              <div class="img-after-button">
+                  <img src="img/burger-1.png"  id="imegs" alt="img-1" onclick="img_1()">
+                  <img src="img/burger-2.png" id="imegs" alt="img-2" onclick="img_2()">
+                  <img src="img/burger-6.png" id="imegs"  alt="img-3" onclick="img_3()">
+                  <img src="img/burger-5.png" id="imegs"  alt="img-4" onclick="img_4()">
+                  <img src="img/burger-3.png" id="imegs" alt="img-5" onclick="img_5()">
+              </div>
+              
+          </div>
+          <div class="prof-img product">
+              <img src="img/burger-6.png" alt="" id="img">
+          </div>
+
+      </section>
+      <!--  //  END PRPFILE --  -->
+
+      <!--  //  STRIT NAVBOX --  -->
+      <section class="navbox">
+          <div class="container">
+           
+              <div class="box-1 box">
+                  <img src="img/snack-4.png" alt="">
+                  <div class="text">
+                    <h2>FOOD</h2>
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <a href="">Buy online</a>
+                  </div>
+              </div>
+                 
+           
+              <div class="box-2 box">
+                  <img src="img/snack-1.png" alt="">
+                  <div class="text">
+                      <h2>FOOD</h2>
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <a href="">Buy online</a>
+                  </div>
+              </div>
+                 
+           
+              <div class="box-3 box">
+                  <img src="img/beverage-1.png" alt="">
+                  <div class="text">
+                    <h2>FOOD</h2>
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <a href="">Buy online</a>
+                  </div>
+                 
+              </div>
+
+              
+          </div>
+
+          <div class="ofar-titel">
+            <div class="box-o-1 box-o">
+                
+                <div class="text">
+                    <span>Payday Promo</span>
+                    <h2>GET A 10% DISCOUNT ON PAYDAY WEEK</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit!</p>
+                    <a href="">Buy online</a>
+                </div>
+                <img src="img/home-image.png" alt="">
+            </div>
+            <div class="box-o-2 box-o">
+                
+                <div class="text">
+                    <span>Payday Promo</span>
+                    <h2>GET A 10% DISCOUNT ON PAYDAY WEEK</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit!</p>
+                    <a href="">Buy online</a>
+                </div>
+                <img src="img/promo-2.png" alt="">
+            </div>
+
+        </div>
+
+
+
+      </section>
+
+      <!--  //  END NAVBOX --  -->
+      <!--  //  STRIT ABOUT --  -->
+      <section class="about" id="about">
+          <div class="container">
+              <div class="img-a">
+          <img src="img/burger-6.png" alt="about" class="img-about">
+          <img src="img/burger-3.png" alt="about" class="img-about">
+          <img src="img/burger-1.png" alt="about" class="img-about">
+          <img src="img/burger-2.png" alt="about" class="img-about">
+        </div>
+          <div class="text">
+              <h2>FLND FOOD AND DRINKS, ALL-IN-ONE PLACE FOR YOUR BEST TASTE.</h2>
+              <br>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto cum provident tempore placeat exercitationem quos alias dicta corporis in? Explicabo.</p>
+              <div>
+                  <ul>
+                      <li><i class="fa-solid fa-check"></i>Best price</li>
+                      <li><i class="fa-solid fa-check"></i>Fresh Ingredient</li>
+                      <li><i class="fa-solid fa-check"></i>Best Service</li>
+                      <li><i class="fa-solid fa-check"></i>Health protocol</li>
+                  </ul>
+              </div>
+          </div>
+          </div>
+      </section>
+      <!--  //  END ABOUT --  -->
+      <!--  //  STRIT MENU --  -->
+      <section class="menus wrapper" id="menus">
+          <div class="category-fliter">
+              <div class="container">
+                  <div class="title">
+                      <h1>MENU</h1>
+                  </div>
+                  <div class="filter-btns">
+
+                      <button type="button" class="filter-btn active-btn" id="all">all</button>
+                      <button type="button" class="filter-btn" id="new">new</button>
+                      <button type="button" class="filter-btn" id="Burger">Burger</button>
+                      <button type="button" class="filter-btn" id="Beverage">Beverage</button>
+                      <button type="button" class="filter-btn" id="Snacks">Snacks</button>
+                  </div>
+                  <div class="filter-items listProduct">
+                  <div class="filter-item all new Burger">
+                      <div class="item-img">
+                          <img src="img/burger-1.png" alt="" class="item image">
+                          <span class="discount">20%</span>
+                    </div>
+                    <div class="item-info">
+                        <p>Cool item name</p>
+                        <div>
+                            <span class="old-price">EGP 60.99</span>
+                            <span class="new-price">EGP 55.99</span>
+                        </div>
+                        <a  class="add-btn">Add to cart</a>
+                    </div>
+                      
+                  </div>
+                  <div class="filter-item all new Burger ">
+                      <div class="item-img">
+                          <img src="img/burger-2.png" alt="" class="item image">
+                          <span class="discount">20%</span>
+                    </div>
+                    <div class="item-info">
+                        <p>Cool item name</p>
+                        <div >
+                            <span class="old-price">EGP 75.99</span>
+                            <span class="new-price">EGP 70.99</span>
+                        </div>
+                        <a  class="add-btn">Add to cart</a>
+                    </div>
+                      
+                  </div>
+                  <div class="filter-item all new Burger">
+                      <div class="item-img">
+                          <img src="img/burger-3.png" alt="" class="item image">
+                          <span class="discount">20%</span>
+                    </div>
+                    <div class="item-info">
+                        <p>Cool item name</p>
+                        <div >
+                            <span class="old-price">EGP 95.99</span>
+                            <span class="new-price">EGP 90.99</span>
+                        </div>
+                        <a  class="add-btn">Add to cart</a>
+                    </div>
+                      
+                  </div>
+
+                  <div class="filter-item all new Burger">
+                      <div class="item-img">
+                          <img src="img/burger-4.png" alt="" class="item image">
+                          <span class="discount">20%</span>
+                    </div>
+                    <div class="item-info">
+                        <p>Cool item name</p>
+                        <div >
+                            <span class="old-price">EGP 84.99</span>
+                            <span class="new-price">EGP 79.99</span>
+                        </div>
+                        <a  class="add-btn">Add to cart</a>
+                    </div>
+                      
+                  </div>
+                  <!-- Beverage -->
+                  <div class="filter-item all Beverage ">
+                    <div class="item-img">
+                        <img src="img/beverage-1.png" alt="" class="item image">
+                        <span class="discount">20%</span>
+                  </div>
+                  <div class="item-info">
+                      <p>Cool item name</p>
+                      <div >
+                          <span class="old-price">EGP 84.99</span>
+                          <span class="new-price">EGP 79.99</span>
+                      </div>
+                      <a  class="add-btn">Add to cart</a>
+                  </div>
+                    
+                </div>
+                  <div class="filter-item all Beverage ">
+                    <div class="item-img">
+                        <img src="img/beverage-2.png" alt="" class="item image">
+                        <span class="discount">20%</span>
+                  </div>
+                  <div class="item-info">
+                      <p>Cool item name</p>
+                      <div >
+                          <span class="old-price">EGP 84.99</span>
+                          <span class="new-price">EGP 79.99</span>
+                      </div>
+                      <a  class="add-btn">Add to cart</a>
+                  </div>
+                    
+                </div>
+                  <div class="filter-item all Beverage ">
+                    <div class="item-img">
+                        <img src="img/beverage-3.png" alt="" class="item image">
+                        <span class="discount">20%</span>
+                  </div>
+                  <div class="item-info">
+                      <p>Cool item name</p>
+                      <div >
+                          <span class="old-price">EGP 84.99</span>
+                          <span class="new-price">EGP 79.99</span>
+                      </div>
+                      <a  class="add-btn">Add to cart</a>
+                  </div>
+                    
+                </div>
+                  <div class="filter-item all Beverage ">
+                    <div class="item-img">
+                        <img src="img/beverage-4.png" alt="" class="item image">
+                        <span class="discount">20%</span>
+                  </div>
+                  <div class="item-info">
+                      <p>Cool item name</p>
+                      <div >
+                          <span class="old-price">EGP 84.99</span>
+                          <span class="new-price">EGP 79.99</span>
+                      </div>
+                      <a  class="add-btn">Add to cart</a>
+                  </div>
+                    
+                </div>
+                  <div class="filter-item all Beverage ">
+                    <div class="item-img">
+                        <img src="img/beverage-5.png" alt="" class="item image">
+                        <span class="discount">20%</span>
+                  </div>
+                  <div class="item-info">
+                      <p>Cool item name</p>
+                      <div >
+                          <span class="old-price">EGP 84.99</span>
+                          <span class="new-price">EGP 79.99</span>
+                      </div>
+                      <a  class="add-btn">Add to cart</a>
+                  </div>
+                    
+                </div>
+                <!-- Snacks -->
+                  <div class="filter-item all Snacks ">
+                    <div class="item-img">
+                        <img src="img/snack-1.png" alt="" class="item image">
+                        <span class="discount">20%</span>
+                  </div>
+                  <div class="item-info">
+                      <p>Cool item name</p>
+                      <div >
+                          <span class="old-price">EGP 84.99</span>
+                          <span class="new-price">EGP 79.99</span>
+                      </div>
+                      <a  class="add-btn">Add to cart</a>
+                  </div>
+                    
+                </div>
+                  <div class="filter-item all Snacks ">
+                    <div class="item-img">
+                        <img src="img/snack-3.png" alt="" class="item image">
+                        <span class="discount">20%</span>
+                  </div>
+                  <div class="item-info">
+                      <p>Cool item name</p>
+                      <div >
+                          <span class="old-price">EGP 84.99</span>
+                          <span class="new-price">EGP 79.99</span>
+                      </div>
+                      <a  class="add-btn">Add to cart</a>
+                  </div>
+                    
+                </div>
+                  <div class="filter-item all Snacks ">
+                    <div class="item-img">
+                        <img src="img/snack-4.png" alt="" class="item image">
+                        <span class="discount">20%</span>
+                  </div>
+                  <div class="item-info">
+                      <p>Cool item name</p>
+                      <div >
+                          <span class="old-price">EGP 84.99</span>
+                          <span class="new-price">EGP 79.99</span>
+                      </div>
+                      <a  class="add-btn">Add to cart</a>
+                  </div>
+                    
+                </div>
+                  <div class="filter-item all Snacks ">
+                    <div class="item-img">
+                        <img src="img/snack-5.png" alt="" class="item image">
+                        <span class="discount">20%</span>
+                  </div>
+                  <div class="item-info">
+                      <p>Cool item name</p>
+                      <div >
+                          <span class="old-price">EGP 84.99</span>
+                          <span class="new-price">EGP 79.99</span>
+                      </div>
+                      <a  class="add-btn">Add to cart</a>
+                  </div>
+                    
+                </div>
+                  <div class="filter-item all Snacks ">
+                    <div class="item-img">
+                        <img src="img/snack-6.png" alt="" class="item image">
+                        <span class="discount">20%</span>
+                  </div>
+                  <div class="item-info">
+                      <p>Cool item name</p>
+                      <div >
+                          <span class="old-price">EGP 84.99</span>
+                          <span class="new-price">EGP 79.99</span>
+                      </div>
+                      <a  class="add-btn">Add to cart</a>
+                  </div>
+                    
+                </div>
+                      
+                  </div>
+              </div>
+          </div>
+          
+
+      </section>
+
+      <!--  //  END MENU --  -->
+      <!--  //  STRIT REVIEW --  -->
+      <section class="review">
+          <div class="container">
+            <div class="title">
+                <h1>CUSTOMER REVIEW</h1>
+            </div>
+
+
+           <div class="swiper">
+            <div class="swiper-wrapper">
+            <article class="card__article swiper-slide ">
+                <div class="card__image">
+                   
+            
+                </div>
+ 
+                <div class="card__data">
+                    <img src="img/review-1.jpg" alt="image" class="card__img">
+                   <h3 class="card__name">Kell Dawx</h3>
+                   <p class="card__description">
+                      Passionate about development and design, 
+                      I carry out projects at the request of users.
+                   </p>
+ 
+                   <i class="fa-solid fa-quote-right card__button"></i>
+                </div>
+             </article>
+            <article class="card__article swiper-slide ">
+                <div class="card__image">
+                   
+            
+                </div>
+ 
+                <div class="card__data">
+                    <img src="img/review-2.jpg" alt="image" class="card__img">
+                   <h3 class="card__name">Mariam Dawx</h3>
+                   <p class="card__description">
+                      Passionate about development and design, 
+                      I carry out projects at the request of users.
+                   </p>
+ 
+                   <i class="fa-solid fa-quote-right card__button"></i>
+                </div>
+             </article>
+            <article class="card__article swiper-slide ">
+                <div class="card__image">
+                   
+            
+                </div>
+ 
+                <div class="card__data">
+                    <img src="img/review-3.jpg" alt="image" class="card__img">
+                   <h3 class="card__name">Mohamed Dawx</h3>
+                   <p class="card__description">
+                      Passionate about development and design, 
+                      I carry out projects at the request of users.
+                   </p>
+ 
+                   <i class="fa-solid fa-quote-right card__button"></i>
+                </div>
+             </article>
+            <article class="card__article swiper-slide ">
+                <div class="card__image">
+                   
+            
+                </div>
+ 
+                <div class="card__data">
+                    <img src="img/review-4.jpg" alt="image" class="card__img">
+                   <h3 class="card__name">Yasmine Dawx</h3>
+                   <p class="card__description">
+                      Passionate about development and design, 
+                      I carry out projects at the request of users.
+                   </p>
+ 
+                   <i class="fa-solid fa-quote-right card__button"></i>
+                </div>
+             </article>
+            <article class="card__article swiper-slide ">
+                <div class="card__image">
+                   
+            
+                </div>
+ 
+                <div class="card__data">
+                    <img src="img/review-5.jpg" alt="image" class="card__img">
+                   <h3 class="card__name">Ahmed Dawx</h3>
+                   <p class="card__description">
+                      Passionate about development and design, 
+                      I carry out projects at the request of users.
+                   </p>
+ 
+                   <i class="fa-solid fa-quote-right card__button"></i>
+                </div>
+             </article></div>
+
+             <div class="swiper-pagination"></div>
+
+             <!-- If we need navigation buttons -->
+             <div class="swiper-button-prev swiper-button " id="swiper-button"></div>
+             <div class="swiper-button-next swiper-button" id="swiper-button"></div>
+           
+             <!-- If we need scrollbar -->
+             <div class="swiper-scrollbar"></div>
+           </div>
+           </div>
+          </div>
+      </section>
+      <!--  //  END REVIEW --  -->
+            <!--  //  STRIT CONTACT --  -->
+            <section class="contact">
+                <div class="container">
+                    <div class="text">
+                        <h2>GET EXCLUSLVE UPDATE</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa error
+                             laborum laudantium quasi quas quo unde aliquam aperiam dolore debitis!</p>
+                    </div>
+                    <div class="input">
+                        <form action="index.html" method="post" class="contact-form">
+                      
+                        <input type="email" placeholder="Email Address" name="Email"  autocomplete="off" >
+                        <button class="btn btn-1"><i class="fa-solid fa-paper-plane"></i> Subscribe</button>
+                    </form>
+                </div>
+                </div>
+            </section>
+
+
+      <!--  //  END EMAIL --  -->
+      <!--  //  END EMAIL --  -->
+      <footer class="footer">
+        <div class="footer-container">
+        <div class="fotr-1">
+            <h2 class="logo">COMBO</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        
+        <div class="fotr-2"> 
+            <h2>lnformations</h2>
+            <ul>
+            <li><a href="#">About Us</a></li>
+            
+            <li><a href="#">More Search</a></li>
+            
+            <li><a href="#">Blog</a></li>
+            
+            <li><a href="#">Testimonials</a></li>
+            
+            <li><a href="#">Events</a></li>
+        </ul>
+            
+        </div>
+
+        <div class="fotr-3"> 
+            <h2>Helpful Links</h2>
+            <ul>
+            <li><a href="#">Services</a></li>
+            
+            <li><a href="#">Supports</a></li>
+            
+            <li><a href="#">terms & Conditions</a></li>
+            
+            <li><a href="#"> Privacy Policy</a></li>
+            
+        </ul>
+            
+        </div>
+       
+        <div class="fotr-5"> 
+            <h2>Contact Us</h2>
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i> cairo - EGY </li>
+                <li><i class="fa-solid fa-phone"></i><a href="tel:+1605240">+1605240</a></li>
+                <li><i class="fa-solid fa-envelope"></i><a href="mailto:email@gmail.com">email@gmail.com</a></li>
+            </ul>
+
+        </div>
+
+        
+</div>
+<!-- ---  CopyRight --- -->
+        <p class="copyright">© 2024 <a href="https://www.linkedin.com/in/mhmdahmd6">M.Jaballah </a> . All right reserved</p>
+    </footer>
+
+      <!--  //  END EMAIL --  -->
+      
+
+
+      
+      <!--  //  END SECTION --  -->
+
+
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script src="main.js"></script>   
+ <script src="main-1.js"></script>   
+</body>
+</html>
